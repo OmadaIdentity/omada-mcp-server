@@ -1,0 +1,5 @@
+httpx>=0.28.0
+python-dotenv>=1.0.0
+mcp>=1.19.0
+fastmcp>=2.13.0
+pywin32>=311; sys_platform == "win32"

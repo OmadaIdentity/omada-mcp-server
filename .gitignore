@@ -1,0 +1,34 @@
+# --- Credentials & secrets ---
+.env
+.token_cache.bin
+bearer.txt
+
+# --- Runtime data ---
+omada_cache.db
+omada_cache.db-shm
+omada_cache.db-wal
+*.log
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
